@@ -1,10 +1,10 @@
 # carla_ros_bridge
 Enables a bridge with a two-way communication between ROS and CARLA Simulator.
 
-OS: Ubuntu 18.04 / Windows 10
-version: 0.9.8
+OS: Ubuntu 18.04 / Windows 10  
+CARLA version: 0.9.8
 
-## carla_ros_bridge for Windows
+## carla_ros_bridge on Windows/Ubuntu
 
 Be sure that you had also download Carla on Ubuntu, we'll need the `.egg` file while bridging
 
@@ -53,7 +53,6 @@ For me: `/opt/carla-ros-bridge/melodic/share/carla_ros_bridge/launch`
     1. Execute `CarlaUE4.exe`
     2. Execute python file 
         ex:`python manual_control.py`
-    
 - For Ubuntu
     - if you want run only simulator on Ubuntu, run `./CarlaUE4.sh` in `Carla_0.9.8` folder 
     - to change the scene of the map
@@ -78,5 +77,5 @@ Downlaod Carla
 - Windows: https://blog.csdn.net/xianglianghe/article/details/105510833
 - Linux: http://carla.org/2020/03/09/release-0.9.8/
 
-ROS bridge: https://wellbay.cc/thread-200827.htm
+ROS bridge: https://wellbay.cc/thread-200827.htm  
 Share files between Ubuntu and Windows 10: https://www.c-sharpcorner.com/article/how-to-share-files-between-ubuntu-and-windows-10/
